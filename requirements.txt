@@ -1,0 +1,10 @@
+openai==0.28
+python-dotenv
+gradio
+chromadb
+langchain
+langchain-community
+langchain-core
+tiktoken
+datetime
+pypdf
