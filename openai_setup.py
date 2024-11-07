@@ -17,12 +17,10 @@ import vectorDB_stuff
 
 # Setup OPEN AI
 env_vars = dotenv_values('.env')
-openai.api_key = env_vars['OPENAI_AIBMNLAB']  # get the variable from env file
-#openai.organization = env_vars['OPENAI_ORGANIZATION'] # get the variable from env file
-os.environ['OPENAI_API_KEY'] = env_vars['OPENAI_AIBMNLAB']
-os.environ['OPENAI_ORGANIZATION'] = env_vars['OPENAI_AIBMNLAB_ORG']
-#print(os.environ['OPENAI_API_KEY'])
-#print(os.environ['OPENAI_ORGANIZATION'])
+openai.api_key = env_vars['OPENAI_API_KEY']  # get the variable from env file
+os.environ['OPENAI_API_KEY'] = env_vars['OPENAI_API_KEY']
+os.environ['OPENAI_ORGANIZATION'] = env_vars['OPENAI_ORGANIZATION']
+
 
 
 '''
