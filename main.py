@@ -8,7 +8,7 @@ import threading
 import openai
 import langchain
 import chromadb
-import shutil # TODO: include in requirements
+import shutil # TODO: include in requirements?
 
 from dotenv import dotenv_values
 from datetime import datetime
